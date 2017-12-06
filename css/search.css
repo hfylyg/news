@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#search{
+    width: 100%;
+    height: 0.88rem;
+    padding-top: 0.1rem;
+    background: deeppink;
+    position: relative;
+}
+#search > span{
+    width: 0.6rem;
+    height: 0.6rem;
+   text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+#search .sousuo{
+    width: 0.6rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.16rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0.12rem;
+}
+
+.search{
+    display: block;
+    width: 80%;
+    height: 0.66rem;
+    font-size: 0.24rem;
+    padding-left: 0.03rem;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    border-radius: 0.03rem;
+}
+#history{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0.1rem;
+
+}
+#history > span{
+    display: block;
+    float: left;
+    margin-top: 0.1rem;
+    margin-left: 0.16rem;
+    padding:0.1rem;
+    background: pink;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.content{
+    width:100%;
+    height: auto;
+
+}
+.content .list{
+    width:95%;
+    margin: 0 auto;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding: 0.1rem 0;
+
+}
+.content .list a{
+    font-size: 17px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding: 0.05rem;
+    line-height: 0.48rem;
+    color: #000;
+    text-decoration: none;
+}
+.left{
+    width: 40%;
+    height: 1.08rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.left img{
+    width: 90%;
+}
+.con{
+    width: 60%;
+    /*padding: 0.1rem;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content:space-between;
+    text-align:justify;
+    line-height: 0.38rem;
+
+    font-size: 17px;
+
+}
+i{
+    font-size: 0.12rem;
+    color: #666;
+}
+#loading{
+    position: fixed;
+    top: 0;width: 0.85rem;height: 0.81rem;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+#loading img{
+    display: block;
+    width: 120%;height: 120%;
+}
